@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32E401952C64EC6E004C870E /* HackathonTractianApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E401942C64EC6E004C870E /* HackathonTractianApp.swift */; };
+		32E401972C64EC6E004C870E /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E401962C64EC6E004C870E /* InitialView.swift */; };
+		32E401992C64EC6F004C870E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E401982C64EC6F004C870E /* Assets.xcassets */; };
+		32E4019C2C64EC6F004C870E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E4019B2C64EC6F004C870E /* Preview Assets.xcassets */; };
+		32E401A32C64EEAB004C870E /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E401A22C64EEAB004C870E /* CameraView.swift */; };
+		32E401A52C64EEBC004C870E /* SelectPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E401A42C64EEBC004C870E /* SelectPhotoView.swift */; };
+		32E401A72C64F1D1004C870E /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E401A62C64F1D1004C870E /* CameraModel.swift */; };
+		32E401A92C64F1FA004C870E /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E401A82C64F1FA004C870E /* CameraPreview.swift */; };
+		32E401AB2C64FA58004C870E /* SecondPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E401AA2C64FA58004C870E /* SecondPhotoView.swift */; };
+		32E401AD2C64FDDD004C870E /* ThirdPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E401AC2C64FDDD004C870E /* ThirdPhotoView.swift */; };
+		32E401AF2C64FE12004C870E /* AnalysingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E401AE2C64FE12004C870E /* AnalysingView.swift */; };
+		32E401B32C65218C004C870E /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E401B22C65218C004C870E /* DataLoader.swift */; };
+		32E401B52C6521A0004C870E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E401B42C6521A0004C870E /* DataManager.swift */; };
+		32E401B82C65223E004C870E /* SwiftOpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 32E401B72C65223E004C870E /* SwiftOpenAI */; };
+		32E401BA2C65229B004C870E /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E401B92C65229B004C870E /* AppConstants.swift */; };
+		32E401BC2C654017004C870E /* MachineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E401BB2C654017004C870E /* MachineModel.swift */; };
+		32E401BE2C6540A6004C870E /* ReadResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E401BD2C6540A6004C870E /* ReadResponse.swift */; };
+		32E401C02C654B74004C870E /* PutInfosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E401BF2C654B74004C870E /* PutInfosView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32E401912C64EC6E004C870E /* HackathonTractian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackathonTractian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E401942C64EC6E004C870E /* HackathonTractianApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackathonTractianApp.swift; sourceTree = "<group>"; };
+		32E401962C64EC6E004C870E /* InitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
+		32E401982C64EC6F004C870E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32E4019B2C64EC6F004C870E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32E401A22C64EEAB004C870E /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		32E401A42C64EEBC004C870E /* SelectPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPhotoView.swift; sourceTree = "<group>"; };
+		32E401A62C64F1D1004C870E /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
+		32E401A82C64F1FA004C870E /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		32E401AA2C64FA58004C870E /* SecondPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPhotoView.swift; sourceTree = "<group>"; };
+		32E401AC2C64FDDD004C870E /* ThirdPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPhotoView.swift; sourceTree = "<group>"; };
+		32E401AE2C64FE12004C870E /* AnalysingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysingView.swift; sourceTree = "<group>"; };
+		32E401B22C65218C004C870E /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		32E401B42C6521A0004C870E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		32E401B92C65229B004C870E /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		32E401BB2C654017004C870E /* MachineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineModel.swift; sourceTree = "<group>"; };
+		32E401BD2C6540A6004C870E /* ReadResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadResponse.swift; sourceTree = "<group>"; };
+		32E401BF2C654B74004C870E /* PutInfosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PutInfosView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32E4018E2C64EC6E004C870E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E401B82C65223E004C870E /* SwiftOpenAI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32E401882C64EC6E004C870E = {
+			isa = PBXGroup;
+			children = (
+				32E401BF2C654B74004C870E /* PutInfosView.swift */,
+				32E401BD2C6540A6004C870E /* ReadResponse.swift */,
+				32E401BB2C654017004C870E /* MachineModel.swift */,
+				32E401B92C65229B004C870E /* AppConstants.swift */,
+				32E401B42C6521A0004C870E /* DataManager.swift */,
+				32E401B22C65218C004C870E /* DataLoader.swift */,
+				32E401AE2C64FE12004C870E /* AnalysingView.swift */,
+				32E401AC2C64FDDD004C870E /* ThirdPhotoView.swift */,
+				32E401AA2C64FA58004C870E /* SecondPhotoView.swift */,
+				32E401A82C64F1FA004C870E /* CameraPreview.swift */,
+				32E401A62C64F1D1004C870E /* CameraModel.swift */,
+				32E401A22C64EEAB004C870E /* CameraView.swift */,
+				32E401932C64EC6E004C870E /* HackathonTractian */,
+				32E401922C64EC6E004C870E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32E401922C64EC6E004C870E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32E401912C64EC6E004C870E /* HackathonTractian.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32E401932C64EC6E004C870E /* HackathonTractian */ = {
+			isa = PBXGroup;
+			children = (
+				32E401942C64EC6E004C870E /* HackathonTractianApp.swift */,
+				32E401962C64EC6E004C870E /* InitialView.swift */,
+				32E401A42C64EEBC004C870E /* SelectPhotoView.swift */,
+				32E401982C64EC6F004C870E /* Assets.xcassets */,
+				32E4019A2C64EC6F004C870E /* Preview Content */,
+			);
+			path = HackathonTractian;
+			sourceTree = "<group>";
+		};
+		32E4019A2C64EC6F004C870E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				32E4019B2C64EC6F004C870E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32E401902C64EC6E004C870E /* HackathonTractian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32E4019F2C64EC6F004C870E /* Build configuration list for PBXNativeTarget "HackathonTractian" */;
+			buildPhases = (
+				32E4018D2C64EC6E004C870E /* Sources */,
+				32E4018E2C64EC6E004C870E /* Frameworks */,
+				32E4018F2C64EC6E004C870E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackathonTractian;
+			packageProductDependencies = (
+				32E401B72C65223E004C870E /* SwiftOpenAI */,
+			);
+			productName = HackathonTractian;
+			productReference = 32E401912C64EC6E004C870E /* HackathonTractian.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32E401892C64EC6E004C870E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					32E401902C64EC6E004C870E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 32E4018C2C64EC6E004C870E /* Build configuration list for PBXProject "HackathonTractian" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32E401882C64EC6E004C870E;
+			packageReferences = (
+				32E401B62C65223E004C870E /* XCRemoteSwiftPackageReference "SwiftOpenAI" */,
+			);
+			productRefGroup = 32E401922C64EC6E004C870E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32E401902C64EC6E004C870E /* HackathonTractian */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32E4018F2C64EC6E004C870E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E4019C2C64EC6F004C870E /* Preview Assets.xcassets in Resources */,
+				32E401992C64EC6F004C870E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32E4018D2C64EC6E004C870E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E401B32C65218C004C870E /* DataLoader.swift in Sources */,
+				32E401A32C64EEAB004C870E /* CameraView.swift in Sources */,
+				32E401A52C64EEBC004C870E /* SelectPhotoView.swift in Sources */,
+				32E401BC2C654017004C870E /* MachineModel.swift in Sources */,
+				32E401A72C64F1D1004C870E /* CameraModel.swift in Sources */,
+				32E401AB2C64FA58004C870E /* SecondPhotoView.swift in Sources */,
+				32E401A92C64F1FA004C870E /* CameraPreview.swift in Sources */,
+				32E401972C64EC6E004C870E /* InitialView.swift in Sources */,
+				32E401BE2C6540A6004C870E /* ReadResponse.swift in Sources */,
+				32E401BA2C65229B004C870E /* AppConstants.swift in Sources */,
+				32E401AF2C64FE12004C870E /* AnalysingView.swift in Sources */,
+				32E401B52C6521A0004C870E /* DataManager.swift in Sources */,
+				32E401C02C654B74004C870E /* PutInfosView.swift in Sources */,
+				32E401952C64EC6E004C870E /* HackathonTractianApp.swift in Sources */,
+				32E401AD2C64FDDD004C870E /* ThirdPhotoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		32E4019D2C64EC6F004C870E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32E4019E2C64EC6F004C870E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32E401A02C64EC6F004C870E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HackathonTractian/Preview Content\"";
+				DEVELOPMENT_TEAM = YXAD2TUP98;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = letUseCamera;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.classifier.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32E401A12C64EC6F004C870E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HackathonTractian/Preview Content\"";
+				DEVELOPMENT_TEAM = YXAD2TUP98;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = letUseCamera;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.classifier.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32E4018C2C64EC6E004C870E /* Build configuration list for PBXProject "HackathonTractian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E4019D2C64EC6F004C870E /* Debug */,
+				32E4019E2C64EC6F004C870E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32E4019F2C64EC6F004C870E /* Build configuration list for PBXNativeTarget "HackathonTractian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E401A02C64EC6F004C870E /* Debug */,
+				32E401A12C64EC6F004C870E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		32E401B62C65223E004C870E /* XCRemoteSwiftPackageReference "SwiftOpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jamesrochabrun/SwiftOpenAI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		32E401B72C65223E004C870E /* SwiftOpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 32E401B62C65223E004C870E /* XCRemoteSwiftPackageReference "SwiftOpenAI" */;
+			productName = SwiftOpenAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 32E401892C64EC6E004C870E /* Project object */;
+}
